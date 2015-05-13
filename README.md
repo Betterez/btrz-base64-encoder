@@ -1,4 +1,4 @@
-# btra-base-64-encoder [![Build Status](https://secure.travis-ci.org/Betterez/btra-base-64-encoder.png?branch=master)](https://travis-ci.org/Betterez/btra-base-64-encoder) [![NPM version](https://badge-me.herokuapp.com/api/npm/btra-base-64-encoder.png)](http://badges.enytc.com/for/npm/btra-base-64-encoder)
+# btrz-base-64-encoder [![Build Status](https://secure.travis-ci.org/Betterez/btrz-base-64-encoder.png?branch=master)](https://travis-ci.org/Betterez/btrz-base-64-encoder) [![NPM version](https://badge-me.herokuapp.com/api/npm/btrz-base-64-encoder.png)](http://badges.enytc.com/for/npm/btrz-base-64-encoder)
 
 This module encodes and decodes strings, values and objects literals to url friendly base64 strings.
 
