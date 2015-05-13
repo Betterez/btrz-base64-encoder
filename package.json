@@ -1,0 +1,32 @@
+{
+  "name": "btrz-base64-encoder",
+  "version": "1.0.0",
+  "description": "Encode (and decode) any value to a url friendly base64 string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/istanbul-harmony/lib/cli.js cover node_modules/mocha/bin/_mocha -- --ui bdd -R spec -t 5000",
+    "test-w": "node_modules/mocha/bin/mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Betterez/btrz-base64-encoder.git"
+  },
+  "keywords": [
+    "base64", "url", "object encoder"
+  ],
+  "author": "Betterez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Betterez/btrz-base64-encoder/issues"
+  },
+  "homepage": "https://github.com/Betterez/btrz-base64-encoder",
+  "dependencies": {
+    "base64-url": "^1.2.1"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "chance": "latest",
+    "istanbul-harmony": "^0.3.1",
+    "mocha": "latest"
+  }
+}
