@@ -1,9 +1,8 @@
 "use strict";
+/*jshint expr: true*/
 
 describe("base64", function () {
   var expect = require("chai").expect,
-    Chance = require("chance").Chance,
-    chance = new Chance(),
     base64 = require("../index");
 
   describe("encode", function () {
