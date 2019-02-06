@@ -4,9 +4,8 @@
   "description": "Encode (and decode) any value to a url friendly base64 string.",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- --ui bdd -R spec -t 5000",
-    "test-w": "node_modules/mocha/bin/mocha -w",
-    "publish": "publish"
+    "test": "node_modules/mocha/bin/mocha --ui bdd -t 5000 --exit",
+    "test-w": "node_modules/mocha/bin/mocha -w"
   },
   "repository": {
     "type": "git",
@@ -29,8 +28,6 @@
   "devDependencies": {
     "chai": "latest",
     "chance": "latest",
-    "istanbul": "^0.4.1",
-    "mocha": "latest",
-    "publish": "^0.5.0"
+    "mocha": "latest"
   }
 }
