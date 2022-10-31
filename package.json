@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha --ui bdd -t 5000 --exit",
     "test-w": "mocha -w",
-    "preversion": "npm test && npm run transpile && npm run commit-transpile",
+    "preversion": "npm test",
     "postversion": "git push origin master && git push --tags"
   },
   "repository": {
