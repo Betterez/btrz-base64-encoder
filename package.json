@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --ui bdd -t 5000 --exit",
-    "test-w": "mocha -w"
+    "test-w": "mocha -w",
+    "preversion": "npm test && npm run transpile && npm run commit-transpile",
+    "postversion": "git push origin master && git push --tags"
   },
   "repository": {
     "type": "git",
