@@ -4,8 +4,8 @@
   "description": "Encode (and decode) any value to a url friendly base64 string.",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha --ui bdd -t 5000 --exit",
-    "test-w": "node_modules/mocha/bin/mocha -w"
+    "test": "mocha --ui bdd -t 5000 --exit",
+    "test-w": "mocha -w"
   },
   "repository": {
     "type": "git",
@@ -26,8 +26,8 @@
     "base64-url": "^2.3.3"
   },
   "devDependencies": {
-    "chai": "latest",
-    "chance": "latest",
-    "mocha": "latest"
+    "chai": "4.3.6",
+    "chance": "1.1.9",
+    "mocha": "10.1.0"
   }
 }
