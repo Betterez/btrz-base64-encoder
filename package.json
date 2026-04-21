@@ -1,6 +1,6 @@
 {
   "name": "btrz-base64-encoder",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Encode (and decode) any value to a url friendly base64 string.",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,5 @@
     "url": "https://github.com/Betterez/btrz-base64-encoder/issues"
   },
   "homepage": "https://github.com/Betterez/btrz-base64-encoder",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
