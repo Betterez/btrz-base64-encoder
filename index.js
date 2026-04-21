@@ -1,6 +1,4 @@
-"use strict";
-
-var base64url = require("base64-url");
+const base64url = require("./base64-url.js");
 
 module.exports = {
   encode: function (valueToEncode) {
